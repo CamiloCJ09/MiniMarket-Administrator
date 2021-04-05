@@ -2,27 +2,27 @@ package model;
 
 public class Person {
 
-    private String documentType;
-    private long documentNumber;
+    private DocType documentType;
+    private String documentNumber;
 
-    public Person(String documentType, long documentNumber){
-        this.documentType = documentType;
+    public Person(String documentType, String documentNumber){
+        this.documentType = DocType.valueOf(documentType);
         this.documentNumber = documentNumber;
     }
 
-    public String getDocumentType() {
+    public DocType getDocumentType() {
         return documentType;
     }
 
-    public void setDocumentType(String documentType) {
+    public void setDocumentType(DocType documentType) {
         this.documentType = documentType;
     }
 
-    public long getDocumentNumber() {
+    public String getDocumentNumber() {
         return documentNumber;
     }
 
-    public void setDocumentNumber(long documentNumber) {
+    public void setDocumentNumber(String documentNumber) {
         this.documentNumber = documentNumber;
     }
 }
