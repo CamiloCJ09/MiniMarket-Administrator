@@ -41,12 +41,13 @@ class MiniMarketTest {
 
         String docType = "TI";
         String docNum = "1193266644";
-        int num = 20;
+        int num = 19;
 
         try{
             boolean ans = miniMarket.addClient(docType, docNum, num);
             assertFalse(ans);
         }catch(DocTypeException | WrongDayException exc){
+            exc.printStackTrace();
         }
     }
 
@@ -63,6 +64,7 @@ class MiniMarketTest {
             boolean ans = miniMarket.addClient(docType, docNum, num);
             assertFalse(ans);
         }catch(DocTypeException | WrongDayException exc){
+            exc.printStackTrace();
         }
 
     }

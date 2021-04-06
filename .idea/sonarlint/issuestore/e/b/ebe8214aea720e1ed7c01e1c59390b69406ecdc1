@@ -1,5 +1,5 @@
 
-C
-java:S1068	"&Remove this unused "sc" private field.(ÔËã™8Óë¼ù‰/
-P
-java:S1068".Remove this unused "miniMarket" private field.(İš‚ƒùÿÿÿÿ8 óºù‰/
+>	java:S1311""Add a default case to this switch.(Îß×Ë8³£Ÿ˜Š/
+h
+java:S1301*"KReplace this "switch" statement by "if" statements to increase readability.(ìè²ë8ßöË–Š/
+>	java:S131*""Add a default case to this switch.(ìè²ë8ßöË–Š/

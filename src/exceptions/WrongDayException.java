@@ -1,5 +1,6 @@
 package exceptions;
 
+@SuppressWarnings("serial")
 public class WrongDayException extends Exception{
 
     private int day;

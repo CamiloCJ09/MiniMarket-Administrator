@@ -1,5 +1,6 @@
 package exceptions;
 
+@SuppressWarnings("serial")
 public class DocTypeException extends Exception {
 
     private String docType;
