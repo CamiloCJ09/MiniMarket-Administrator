@@ -10,7 +10,7 @@ class MiniMarketTest {
 
     private MiniMarket miniMarket;
 
-    public void setupScenary1(){
+    private void setupScenary1(){
         miniMarket = new MiniMarket();
     }
 
