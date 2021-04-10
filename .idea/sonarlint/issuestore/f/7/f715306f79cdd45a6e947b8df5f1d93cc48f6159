@@ -1,7 +1,7 @@
 
 ’
 java:S1319("pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(“ä½èşÿÿÿÿ8¼°Ã˜Š/
-”
-java:S1319,"wThe type of the "clientsArray" object should be an interface such as "List" rather than the implementation "ArrayList".(£ÔÕ8¼°Ã˜Š/
 C
 java:S1110"!Remove these useless parentheses.(©†Ñ¦ûÿÿÿÿ8”¾ÒŸŠ/
+”
+java:S1319,"wThe type of the "clientsArray" object should be an interface such as "List" rather than the implementation "ArrayList".(£ÔÕ8¼°Ã˜Š/

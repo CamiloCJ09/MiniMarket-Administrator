@@ -18,7 +18,12 @@ public class MiniMarket {
     public boolean addClient(String docType, String num, int dayNum) throws WrongDayException, DocTypeException {
         atemps++;
         boolean isAdded = false;
-        int docNum = Integer.parseInt(String.valueOf(num.charAt(num.length()-2)));
+        int docNum;
+        if(num.length()==1){
+            docNum = Integer.parseInt(num);
+        }else{
+            docNum = Integer.parseInt(String.valueOf(num.charAt(num.length()-2)));
+        }
         if(!(((dayNum%2==0 && !(docNum%2==0))) || (!(dayNum%2==0) && (docNum%2==0)))){
             throw new WrongDayException(dayNum, num);
         }else if(docType.equals(DocType.TI.toString())){
